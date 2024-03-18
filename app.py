@@ -16,7 +16,7 @@ from sklearn.impute import SimpleImputer
 app = Flask(__name__)
 
 # Load the dataset
-df = pd.read_csv("C:\\Users\\PS\\Downloads\\Flipkart-Review-Sentiment-Analysis-main\\Flipkart-Review-Sentiment-Analysis\\data.csv")
+df = pd.read_csv('data.csv')
 
 # Handle missing values
 imputer = SimpleImputer(strategy='mean')
